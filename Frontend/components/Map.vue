@@ -10,9 +10,9 @@
 
 <script setup>
 import { ref } from 'vue'
-const center = ref([40, 40])
+const center = ref([8.4, 49.0143])
 const projection = ref('EPSG:4326')
-const zoom = ref(8)
+const zoom = ref(14)
 const rotation = ref(0)
 </script>
 
