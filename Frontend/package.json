@@ -15,5 +15,9 @@
     "nuxt": "^3.8.2",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "ol": "^8.2.0",
+    "vue3-openlayers": "^3.2.0"
   }
 }

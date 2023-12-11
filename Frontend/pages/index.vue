@@ -1,6 +1,10 @@
 <template>
+    <ClientOnly>
+        <Map />
 
-<Map />
+    <template #fallback> Loading map... </template>
+  </ClientOnly>
+
 
 </template>
 
