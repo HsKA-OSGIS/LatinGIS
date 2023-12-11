@@ -1,7 +1,6 @@
 <template>
-
-<h1>Home map</h1>
-
+<h1>Team page</h1>
+    
 </template>
 
 
