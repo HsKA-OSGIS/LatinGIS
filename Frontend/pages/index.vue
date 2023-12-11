@@ -1,6 +1,6 @@
 <template>
 
-<h1>Home map</h1>
+<Map />
 
 </template>
 
