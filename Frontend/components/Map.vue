@@ -1,21 +1,13 @@
 <template>
-  <ol-map
-    :loadTilesWhileAnimating="true"
-    :loadTilesWhileInteracting="true"
-    style="height: 400px"
-    ref="map"
-  >
-    <ol-view
-      ref="view"
-      :center="center"
-      :rotation="rotation"
-      :zoom="zoom"
-      :projection="projection"
-    />
+  <ol-map :loadTilesWhileAnimating="true" :loadTilesWhileInteracting="true" style="height: 480px" ref="map">
+    <ol-view ref="view" :center="center" :rotation="rotation" :zoom="zoom" :projection="projection" />
 
+    <!--Load of the openstreet maps layer-->
     <ol-tile-layer>
       <ol-source-osm />
     </ol-tile-layer>
+
+    <!--geolocation for user of the app-->
 
     <ol-geolocation :projection="projection" @change:position="geoLocChange">
       <template>
