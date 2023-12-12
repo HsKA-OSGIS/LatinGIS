@@ -7,6 +7,14 @@
       <ol-source-osm />
     </ol-tile-layer>
 
+
+    <!--Points layer from api geojson-->
+    <ol-webgl-points-layer :styles="webglPointsStyle">
+      <ol-source-webglpoints
+        :format="geoJson"
+        url="https://openlayers.org/en/latest/examples/data/geojson/world-cities.geojson"
+      />
+    </ol-webgl-points-layer>
     <!--geolocation for user of the app-->
 
     <ol-geolocation :projection="projection" @change:position="geoLocChange">
@@ -31,14 +39,32 @@ import hereIcon from "/here.png";
 import { ref } from "vue";
 import type { View } from "ol";
 import type { ObjectEvent } from "ol/Object";
+const format = inject("ol-format");
+const geoJson = new format.GeoJSON();
 
 const center = ref([40, 40]);
 const projection = ref("EPSG:4326");
-const zoom = ref(12);
+const zoom = ref(14);
 const rotation = ref(0);
 const view = ref<View>();
 const map = ref(null);
 const position = ref([]);
+
+const webglPointsStyle = {
+  "circle-radius": 6,
+  "circle-fill-color": "yellow",
+  "circle-stroke-width": 2,
+  "circle-stroke-color": "darkblue",
+  "circle-opacity": [
+    "interpolate",
+    ["linear"],
+    ["get", "population"],
+    40000,
+    0.6,
+    2000000,
+    0.92,
+  ],
+};
 
 const geoLocChange = (event: ObjectEvent) => {
   console.log("AAAAA", event);
