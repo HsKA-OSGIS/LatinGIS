@@ -16,7 +16,7 @@
             <ol-feature ref="positionFeature">
               <ol-geom-point :coordinates="position"></ol-geom-point>
               <ol-style>
-                <ol-style-icon :src="hereIcon" :scale="0.1"></ol-style-icon>
+                <ol-style-icon :src="hereIcon" :scale="0.03"></ol-style-icon>
               </ol-style>
             </ol-feature>
           </ol-source-vector>
