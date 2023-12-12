@@ -8,19 +8,9 @@
     </ol-tile-layer>
 
     <!--The layers for the services layers checkboxes-->
-    <ol-tile-layer ref="jawgLayer" title="Shops">
-      <ol-source-xyz
-        crossOrigin="anonymous"
-        url="https://c.tile.jawg.io/jawg-dark/{z}/{x}/{y}.png?access-token=87PWIbRaZAGNmYDjlYsLkeTVJpQeCfl2Y61mcHopxXqSdxXExoTLEv7dwqBwSWuJ"
-      />
-    </ol-tile-layer>
+    
 
-    <ol-tile-layer ref="bingLayer" title="Public Transport stations">
-      <ol-source-bingmaps
-        apiKey="AjtUzWJBHlI3Ma_Ke6Qv2fGRXEs0ua5hUQi54ECwfXTiWsitll4AkETZDihjcfeI"
-        :imagerySet="'CanvasDark'"
-      />
-    </ol-tile-layer>
+    
 
     <ol-tile-layer ref="osmLayer" >
       <ol-source-osm />
@@ -49,12 +39,14 @@
     
     </ol-webgl-points-layer>
  
+    <!--Layer switcher control-->
     <ol-layerswitcher-control v-if="layerList.length > 0" />
+
     <!--geolocation for user of the app-->
 
     <ol-geolocation :projection="projection" @change:position="geoLocChange" >
       <template>
-        <ol-vector-layer :zIndex="2">
+        <ol-vector-layer :zIndex="2" :title="currentLocation.title">
           <ol-source-vector>
             <ol-feature ref="positionFeature">
               <ol-geom-point :coordinates="position"></ol-geom-point>
@@ -87,10 +79,11 @@ const view = ref<View>();
 const map = ref(null);
 const position = ref([]);
 const layerList = ref([]);
-const jawgLayer = ref(null);
 const osmLayer = ref(null);
 
-
+const currentLocation ={
+"title":"My Location"
+};
 const sportFacilities = {
   "title":"Sport Facilities",
   "circle-radius": 6,
@@ -148,7 +141,6 @@ const geoLocChange = (event: ObjectEvent) => {
 };
 
 onMounted(() => {
-  layerList.value.push(jawgLayer.value.tileLayer);
   layerList.value.push(osmLayer.value.tileLayer)
 });
 </script>
