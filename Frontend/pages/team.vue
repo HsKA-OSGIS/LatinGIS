@@ -45,7 +45,7 @@
             <div>
                 <p
                     class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                    From UPV and HSK to the World
+                    From UPV and HKA to the World
                 </p>
             </div>
             <h2
