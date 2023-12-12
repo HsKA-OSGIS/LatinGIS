@@ -1,7 +1,11 @@
 <template>
-  <div>
-    <h1>
-      structure view
-    </h1>
-  </div>
+  <NuxtLayout :name="layout">
+    <NuxtPage />
+  </NuxtLayout>
 </template>
+
+<script setup lang="ts">
+const layout = "default";
+</script>
+
+

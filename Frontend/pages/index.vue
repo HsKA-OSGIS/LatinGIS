@@ -1,11 +1,12 @@
 <template>
-    <div>
-        <h1>Home page</h1>
-        <!-- Here we will put the map canvas component -->
+    <ClientOnly>
+        <Map />
+    <template #fallback> Loading map... </template>
+  </ClientOnly>
 
-    </div>
+
 </template>
 
-<style>
-h1{ color:blue}
-</style>
+
+
+<style></style>

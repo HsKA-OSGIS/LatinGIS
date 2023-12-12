@@ -11,8 +11,15 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.10.1",
     "nuxt": "^3.8.2",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@mdi/svg": "^7.3.67",
+    "@mdi/util": "^0.3.2",
+    "ol": "^8.2.0",
+    "vue3-openlayers": "^3.2.0"
   }
 }
