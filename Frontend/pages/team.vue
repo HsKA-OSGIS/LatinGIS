@@ -15,13 +15,21 @@
             </div>
         </div>
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl lg:mx-0">
-                <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">LatinGIS Team</h2>
-                <p class="mt-6 text-lg leading-8 text-gray-300">Inspired by Geomatics for Geospatial applications </p>
+            <div class="columns-2 align-end">
+                <div class=" mx-auto max-w-2xl lg:mx-0">
+                    <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">LatinGIS Team</h2>
+                    <p class="mt-6 text-lg leading-8 text-gray-300">Inspired by Geomatics for Geospatial applications </p>
+                </div>
+                <div >
+                    <img src="/logo.png" alt="Product screenshot"
+                    class="w-[23rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[15rem] md:-ml-4 lg:-ml-0"
+                    width="2432" height="1442">
+                </div>
+                
             </div>
             <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
 
-                <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+                <dl class="mt-3 grid grid-cols-1 gap-8 sm:mt-2 sm:grid-cols-2 lg:grid-cols-3">
                     <div class="flex flex-col-reverse">
                         <dt class="text-base leading-7 text-gray-300">Offices worldwide</dt>
                         <dd class="text-2xl font-bold leading-9 tracking-tight text-white">12</dd>
@@ -34,11 +42,17 @@
                         <dt class="text-base leading-7 text-gray-300">Hours per week</dt>
                         <dd class="text-2xl font-bold leading-9 tracking-tight text-white">40</dd>
                     </div>
-                  
+
                 </dl>
+
             </div>
+
+        </div>
+        <div>
+
         </div>
     </div>
+
     <!-- section of team members-->
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -70,36 +84,31 @@
         </div>
         <div class="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3">
             <div class="flex">
-                <img class="object-cover w-20 h-20 mr-4 rounded-full shadow"
-                    src="nestor.jpeg"
-                    alt="Person" />
+                <img class="object-cover w-20 h-20 mr-4 rounded-full shadow" src="nestor.jpeg" alt="Person" />
                 <div class="flex flex-col justify-center">
                     <p class="text-lg font-bold">Nestor Villanueva</p>
                     <p class="text-sm text-gray-800">Geospatial developer</p>
                 </div>
             </div>
             <div class="flex">
-                <img class="object-cover w-20 h-20 mr-4 rounded-full shadow"
-                    src="/david.jpeg"
-                    alt="Person" />
+                <img class="object-cover w-20 h-20 mr-4 rounded-full shadow" src="/david.jpeg" alt="Person" />
                 <div class="flex flex-col justify-center">
                     <p class="text-lg font-bold">David Pulido</p>
                     <p class="text-sm text-gray-800">Fullstack Developer, Geospatial developer, Geologist</p>
                 </div>
             </div>
             <div class="flex">
-                <img class="object-cover w-20 h-20 mr-4 rounded-full shadow"
-                    src="/ivan.jpeg"
-                    alt="cotis lover" />
-            <div class="flex flex-col justify-center">
-                <p class="text-lg font-bold">Ivan Simarro</p>
-                <p class="text-sm text-gray-800">Backend Developer , GIS </p>
+                <img class="object-cover w-20 h-20 mr-4 rounded-full shadow" src="/ivan.jpeg" alt="cotis lover" />
+                <div class="flex flex-col justify-center">
+                    <p class="text-lg font-bold">Ivan Simarro</p>
+                    <p class="text-sm text-gray-800">Backend Developer , GIS </p>
+                </div>
             </div>
+
+
         </div>
-
-
     </div>
-</div></template>
+</template>
 
 
 
