@@ -10,10 +10,8 @@
 
     <!--Points layer from api geojson-->
     <ol-webgl-points-layer :styles="webglPointsStyle">
-      <ol-source-webglpoints
-        :format="geoJson"
-        url="https://openlayers.org/en/latest/examples/data/geojson/world-cities.geojson"
-      />
+      <ol-source-webglpoints :format="geoJson"
+        url="https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Sporthallen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson" />
     </ol-webgl-points-layer>
     <!--geolocation for user of the app-->
 
@@ -43,7 +41,7 @@ const format = inject("ol-format");
 const geoJson = new format.GeoJSON();
 
 const center = ref([40, 40]);
-const projection = ref("EPSG:4326");
+const projection = ref("EPSG:3857");
 const zoom = ref(14);
 const rotation = ref(0);
 const view = ref<View>();
