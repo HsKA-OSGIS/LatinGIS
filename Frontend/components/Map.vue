@@ -29,6 +29,8 @@
         </ol-vector-layer>
       </template>
     </ol-geolocation>
+    <ol-fullscreen-control />
+    <ol-scaleline-control />
   </ol-map>
 </template>
 
