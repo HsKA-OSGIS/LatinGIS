@@ -90,7 +90,7 @@
             <div class="flex">
                 <img class="object-cover w-20 h-20 mr-4 rounded-full shadow"
                     src="/ivan.jpeg"
-                    alt="Person" />
+                    alt="cotis lover" />
             <div class="flex flex-col justify-center">
                 <p class="text-lg font-bold">Ivan Simarro</p>
                 <p class="text-sm text-gray-800">Backend Developer , GIS </p>
