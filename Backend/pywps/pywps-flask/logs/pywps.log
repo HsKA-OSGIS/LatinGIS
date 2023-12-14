@@ -1,0 +1,372 @@
+2023-12-12 16:52:02,959] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: getcapabilities
+2023-12-12 16:52:36,443] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 16:53:21,064] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 16:53:21,266] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps-flask/workdir/pywps_process_l_31_8i9
+2023-12-12 16:53:40,763] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 16:53:40,908] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps-flask/workdir/pywps_process_z4lejp_i
+2023-12-12 16:54:21,105] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 16:54:21,204] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps-flask/workdir/pywps_process_bs8zzxhn
+2023-12-12 16:54:40,652] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Document is empty, line 1, column 1, locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/app/WPSRequest.py", line 88, in _post_request
+    doc = lxml.etree.fromstring(self.http_request.get_data())
+  File "src/lxml/etree.pyx", line 3235, in lxml.etree.fromstring
+  File "src/lxml/parser.pxi", line 1876, in lxml.etree._parseMemoryDocument
+  File "src/lxml/parser.pxi", line 1764, in lxml.etree._parseDoc
+  File "src/lxml/parser.pxi", line 1127, in lxml.etree._BaseParser._parseDoc
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "<string>", line 1
+lxml.etree.XMLSyntaxError: Document is empty, line 1, column 1
+2023-12-12 16:54:46,498] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 16:54:46,623] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps-flask/workdir/pywps_process_w63w6ep9
+2023-12-12 17:00:30,794] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:00:30,899] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps-flask/workdir/pywps_process_lgty06ih
+2023-12-12 17:01:03,240] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:01:03,344] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps-flask/workdir/pywps_process_1c9rk3fg
+2023-12-12 17:01:16,213] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:01:16,346] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps-flask/workdir/pywps_process_9c19yld8
+2023-12-12 17:01:25,546] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:01:25,658] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps-flask/workdir/pywps_process_2bbxzdpc
+2023-12-12 17:01:47,713] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:01:48,398] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps-flask/workdir/pywps_process_qavbv84p
+2023-12-12 17:02:22,306] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:02:22,538] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps-flask/workdir/pywps_process_ol_3_ihc
+2023-12-12 17:03:06,020] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:03:48,513] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:03:58,162] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:04:53,040] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:04:58,626] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:12:25,854] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:12:25,997] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps-flask/workdir/pywps_process_jvcrlg2z
+2023-12-12 17:23:12,781] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:25:00,755] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:25:00,821] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Unknown process BufferProcess, locator: identifier
+NoneType: None
+2023-12-12 17:31:31,264] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:31:31,330] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Unknown process BufferProcess, locator: identifier
+NoneType: None
+2023-12-12 17:31:38,637] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:31:44,537] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:31:44,584] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Unknown process buffer_json, locator: identifier
+NoneType: None
+2023-12-12 17:32:47,129] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:32:47,130] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 500, description: No applicable error code, please check error log., locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2276, in _wrap_pool_connect
+    return fn()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 363, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 760, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 492, in checkout
+    rec = pool._do_get()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/impl.py", line 238, in _do_get
+    return self._create_connection()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 308, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 437, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 639, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/default.py", line 482, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlite3.OperationalError: unable to open database file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 314, in call
+    log_request(request_uuid, wps_request)
+  File "/usr/lib/python3/dist-packages/pywps/dblog.py", line 77, in log_request
+    session.commit()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 1036, in commit
+    self.transaction.commit()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 503, in commit
+    self._prepare_impl()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 2479, in flush
+    self._flush(objects)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 2617, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 2577, in _flush
+    flush_context.execute()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/unitofwork.py", line 586, in execute
+    persistence.save_obj(
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/persistence.py", line 205, in save_obj
+    for (
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/persistence.py", line 373, in _organize_states_for_save
+    for state, dict_, mapper, connection in _connections_for_states(
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/persistence.py", line 1604, in _connections_for_states
+    connection = uowtransaction.transaction.connection(base_mapper)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 313, in connection
+    return self._connection_for_bind(bind, execution_options)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 420, in _connection_for_bind
+    conn = self._parent._connection_for_bind(bind, execution_options)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 432, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2242, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2279, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 1547, in _handle_dbapi_exception_noconnection
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/compat.py", line 398, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/compat.py", line 152, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2276, in _wrap_pool_connect
+    return fn()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 363, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 760, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 492, in checkout
+    rec = pool._do_get()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/impl.py", line 238, in _do_get
+    return self._create_connection()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 308, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 437, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 639, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/default.py", line 482, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2023-12-12 17:38:22,830] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:38:22,830] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 500, description: No applicable error code, please check error log., locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2276, in _wrap_pool_connect
+    return fn()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 363, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 760, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 492, in checkout
+    rec = pool._do_get()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/impl.py", line 238, in _do_get
+    return self._create_connection()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 308, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 437, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 639, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/default.py", line 482, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlite3.OperationalError: unable to open database file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 314, in call
+    log_request(request_uuid, wps_request)
+  File "/usr/lib/python3/dist-packages/pywps/dblog.py", line 77, in log_request
+    session.commit()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 1036, in commit
+    self.transaction.commit()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 503, in commit
+    self._prepare_impl()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 2479, in flush
+    self._flush(objects)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 2617, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 2577, in _flush
+    flush_context.execute()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/unitofwork.py", line 586, in execute
+    persistence.save_obj(
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/persistence.py", line 205, in save_obj
+    for (
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/persistence.py", line 373, in _organize_states_for_save
+    for state, dict_, mapper, connection in _connections_for_states(
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/persistence.py", line 1604, in _connections_for_states
+    connection = uowtransaction.transaction.connection(base_mapper)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 313, in connection
+    return self._connection_for_bind(bind, execution_options)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 420, in _connection_for_bind
+    conn = self._parent._connection_for_bind(bind, execution_options)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 432, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2242, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2279, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 1547, in _handle_dbapi_exception_noconnection
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/compat.py", line 398, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/compat.py", line 152, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2276, in _wrap_pool_connect
+    return fn()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 363, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 760, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 492, in checkout
+    rec = pool._do_get()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/impl.py", line 238, in _do_get
+    return self._create_connection()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 308, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 437, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 639, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/default.py", line 482, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2023-12-12 17:38:36,078] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:38:36,079] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 500, description: No applicable error code, please check error log., locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2276, in _wrap_pool_connect
+    return fn()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 363, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 760, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 492, in checkout
+    rec = pool._do_get()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/impl.py", line 238, in _do_get
+    return self._create_connection()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 308, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 437, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 639, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/default.py", line 482, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlite3.OperationalError: unable to open database file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 314, in call
+    log_request(request_uuid, wps_request)
+  File "/usr/lib/python3/dist-packages/pywps/dblog.py", line 77, in log_request
+    session.commit()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 1036, in commit
+    self.transaction.commit()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 503, in commit
+    self._prepare_impl()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 2479, in flush
+    self._flush(objects)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 2617, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 2577, in _flush
+    flush_context.execute()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/unitofwork.py", line 586, in execute
+    persistence.save_obj(
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/persistence.py", line 205, in save_obj
+    for (
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/persistence.py", line 373, in _organize_states_for_save
+    for state, dict_, mapper, connection in _connections_for_states(
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/persistence.py", line 1604, in _connections_for_states
+    connection = uowtransaction.transaction.connection(base_mapper)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 313, in connection
+    return self._connection_for_bind(bind, execution_options)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 420, in _connection_for_bind
+    conn = self._parent._connection_for_bind(bind, execution_options)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/orm/session.py", line 432, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2242, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2279, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 1547, in _handle_dbapi_exception_noconnection
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/compat.py", line 398, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/util/compat.py", line 152, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/base.py", line 2276, in _wrap_pool_connect
+    return fn()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 363, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 760, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 492, in checkout
+    rec = pool._do_get()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/impl.py", line 238, in _do_get
+    return self._create_connection()
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 308, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 437, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/pool/base.py", line 639, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/lib/python3/dist-packages/sqlalchemy/engine/default.py", line 482, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2023-12-12 17:45:53,605] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:46:09,537] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:46:09,562] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Unknown process 'buffer_json', locator: Identifier
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 87, in prepare_process_for_execution
+    process = self.processes[identifier]
+KeyError: 'buffer_json'
+2023-12-12 17:46:22,635] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:46:22,698] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Unknown process buffer_json, locator: identifier
+NoneType: None
+2023-12-12 17:55:34,570] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:55:34,753] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps/pywps-flask/workdir/pywps_process_2z1fazsj
+2023-12-12 17:56:32,631] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:57:29,672] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:57:29,726] [ERROR] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=136 module=Service function=_parse_and_execute Missing parameter value: poly_in
+2023-12-12 17:57:29,726] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: poly_in, locator: poly_in
+NoneType: None
+2023-12-12 17:57:47,512] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:57:47,518] [ERROR] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=136 module=Service function=_parse_and_execute Missing parameter value: name
+2023-12-12 17:57:47,518] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: name, locator: name
+NoneType: None
+2023-12-12 17:58:17,735] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-12 17:58:17,745] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2023-12-12 17:58:18,152] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2023-12-12 17:58:47,929] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-12 17:58:48,001] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Unknown process buffer_json, locator: identifier
+NoneType: None
+2023-12-13 18:16:10,894] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-13 18:16:12,340] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-13 18:16:29,445] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: getcapabilities
