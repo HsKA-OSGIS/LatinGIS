@@ -8,9 +8,9 @@ The goal of this project is get resources of facilities in the city of Karlsruhe
 The final data recollected is given visualized in the map and in a list. That data can be exported as json file.
 ## Authors
 
-- [@dpulidogeology](https://github.com/dpulidogeology)  as Backend developer
+- [@dpulidogeology](https://github.com/dpulidogeology)  as Fronted developer,Geospatial Data
 - [@NestorVillanueva](https://github.com/NestorVillanueva) as Geospatial developer
-- [@TheIvansito](https://github.com/TheIvansito) as Frontend developer
+- [@TheIvansito](https://github.com/TheIvansito) as Backend developer,Geospatial Developer
 
 
 ## Features
