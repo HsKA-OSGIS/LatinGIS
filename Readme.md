@@ -11,7 +11,7 @@ The final data recollected is given visualized in the map and in a list. That da
 - [@dpulidogeology](https://github.com/dpulidogeology)  as Backend developer
 - [@NestorVillanueva](https://github.com/NestorVillanueva) as Geospatial developer
 - [@TheIvansito](https://github.com/TheIvansito) as Frontend developer
-+ [@mlechner](https://github.com/mlechner) as tutor
+
 
 ## Features
 
