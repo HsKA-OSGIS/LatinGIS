@@ -31,7 +31,7 @@ Basic guide for Installation. Form more info and detailed intallation, please re
 
 #### Frontend
 ```bash
-
+  git clone
   npm i
   npm run dev
 ```
