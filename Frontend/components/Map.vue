@@ -2,49 +2,20 @@
   <ol-map :loadTilesWhileAnimating="true" :loadTilesWhileInteracting="true" style="height: 480px" ref="map">
     <ol-view ref="view" :center="center" :rotation="rotation" :zoom="zoom" :projection="projection" />
 
-    <!--Load of the openstreet maps layer-->
-    <ol-tile-layer ref="position">
+
+    <ol-tile-layer ref="osmLayer">
       <ol-source-osm />
     </ol-tile-layer>
-
-    <!--The layers for the services layers checkboxes-->
-    
-
-    
-
-    <ol-tile-layer ref="osmLayer" >
-      <ol-source-osm />
-    </ol-tile-layer>
-
     <!--Points layer from api geojson-->
-     <!--Hotels points-->
-     <ol-webgl-points-layer :styles="hotels" :title="hotels.title">
-    
-    <ol-source-webglpoints :format="geoJson"
-      url="https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Tourismus/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Hotels/Unterk%C3%BCnfte%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson" />
-    
+    <ol-webgl-points-layer  v-for="(layer, index) in layers" :key="index" :styles="layer.styles" :title="layer.name">
+      <ol-source-webglpoints :format="geoJson" :url="layer.url" />
     </ol-webgl-points-layer>
-    <!--schools points-->
-    <ol-webgl-points-layer :styles="schools" :title="schools.title">
-    
-      <ol-source-webglpoints :format="geoJson"
-        url="https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Bestattungen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Bestattungsinstitute%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson" />
-      
-      </ol-webgl-points-layer>
-    <!--sport facilities points-->
-    <ol-webgl-points-layer :styles="sportFacilities" :title="sportFacilities.title"> 
-    
-    <ol-source-webglpoints :format="geoJson"
-      url="https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Sporthallen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson" />
-    
-    </ol-webgl-points-layer>
- 
+
     <!--Layer switcher control-->
-    <ol-layerswitcher-control v-if="layerList.length > 0" />
+    <ol-layerswitcher-control />
 
     <!--geolocation for user of the app-->
-
-    <ol-geolocation :projection="projection" @change:position="geoLocChange" >
+    <ol-geolocation :projection="projection" @change:position="geoLocChange">
       <template>
         <ol-vector-layer :zIndex="2" :title="currentLocation.title">
           <ol-source-vector>
@@ -81,57 +52,74 @@ const position = ref([]);
 const layerList = ref([]);
 const osmLayer = ref(null);
 
-const currentLocation ={
-"title":"My Location"
+const currentLocation = {
+  "title": "My Location"
 };
-const sportFacilities = {
-  "title":"Sport Facilities",
-  "circle-radius": 6,
-  "circle-fill-color": "blue",
-  "circle-stroke-width": 2,
-  "circle-stroke-color": "darkblue",
-  "circle-opacity": [
-    "interpolate",
-    ["linear"],
-    ["get", "population"],
-    40000,
-    0.6,
-    2000000,
-    0.92,
-  ],
-};
-const schools = {
-  "title":"schools",
-  "circle-radius": 6,
-  "circle-fill-color": "yellow",
-  "circle-stroke-width": 2,
-  "circle-stroke-color": "darkblue",
-  "circle-opacity": [
-    "interpolate",
-    ["linear"],
-    ["get", "population"],
-    40000,
-    0.6,
-    2000000,
-    0.92,
-  ],
-};
-const hotels = {
-  "title":"hotels",
-  "circle-radius": 6,
-  "circle-fill-color": "orange",
-  "circle-stroke-width": 2,
-  "circle-stroke-color": "darkblue",
-  "circle-opacity": [
-    "interpolate",
-    ["linear"],
-    ["get", "population"],
-    40000,
-    0.6,
-    2000000,
-    0.92,
-  ],
-};
+
+const layers = ref([
+  {
+    name: 'Hotels',
+    url: 'https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Tourismus/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Hotels/Unterk%C3%BCnfte%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson',
+    styles: {
+      "circle-radius": 6,
+      "circle-fill-color": "yellow",
+      "circle-stroke-width": 2,
+      "circle-stroke-color": "darkblue",
+      "circle-opacity": [
+        "interpolate",
+        ["linear"],
+        ["get", "population"],
+        40000,
+        0.6,
+        2000000,
+        0.92,
+      ]
+    }
+  },
+  {
+    name: 'Schools',
+    url: 'https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Bestattungen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Bestattungsinstitute%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson',
+    styles: {
+      "circle-radius": 6,
+      "circle-fill-color": "blue",
+      "circle-stroke-width": 2,
+      "circle-stroke-color": "darkblue",
+      "circle-opacity": [
+        "interpolate",
+        ["linear"],
+        ["get", "population"],
+        40000,
+        0.6,
+        2000000,
+        0.92,
+      ]
+    }
+  },
+  {
+    name: 'Sport Facilities',
+    url:'https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Sporthallen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson',
+    styles: {
+      "circle-radius": 6,
+      "circle-fill-color": "orange",
+      "circle-stroke-width": 2,
+      "circle-stroke-color": "darkblue",
+      "circle-opacity": [
+        "interpolate",
+        ["linear"],
+        ["get", "population"],
+        40000,
+        0.6,
+        2000000,
+        0.92,
+      ]
+    }
+  }
+]);
+
+
+
+
+
 
 
 const geoLocChange = (event: ObjectEvent) => {
