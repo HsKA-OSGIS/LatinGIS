@@ -1,11 +1,11 @@
 
 # ![App Screenshot](https://lh3.googleusercontent.com/drive-viewer/AEYmBYRWd3wgwQx6aUH5rhu3h70CAQneGC_X9JVhcU9z2eIrAXTQizTrAzTpayw1jDifkA6OpSF7JZso1Gqs4dqBT1ATVk-XJg=w150-h320) LatinGIS
 
-LatinGIS is a group of three students of HKA University in Karlsruhe (Germany) that are creating a project of "15 minutes city" for the faculty of Geomatics in the subject Open Source GIS in Master of Geomatics.
+LatinGIS is a group of three students of HKA University in Karlsruhe (Germany) that are creating a project of "15-Minute City" for the faculty of Geomatics in the subject Open Source GIS in Master of Geomatics.
 
-The goal of this project is get resources of facilities in the city of Karlsruhe and show them in a map. User will be able to select a point and check what facilities are closser to that point. The distance between the point and the facilities is given by the choosen mode of transport (by walk or bike) and the time that you want to spend (5, 10 or 15 minutes).
+The goal of this project is get resources of facilities in the city of Karlsruhe and show them in a map. User will be able to select a point and check what facilities are closer to that point. The distance between the point and the facilities is given by the choosen mode of transport (by walk or bike) and the time that you want to spend (5, 10 or 15 minutes).
 
-The final data recollected is given visualized in the map and in a list. That data can be exported as json file.
+The final data recollected is given visualized in the map and in a list. That data can be exported as csv file.
 ## Authors
 
 - [@dpulidogeology](https://github.com/dpulidogeology)  as Fronted developer,Geospatial Data
