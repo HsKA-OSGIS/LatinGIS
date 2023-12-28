@@ -3,7 +3,7 @@
 
 LatinGIS is a group of three students of HKA University in Karlsruhe (Germany) that are creating a project of "15 minutes city" for the faculty of Geomatics in the subject Open Source GIS in Master of Geomatics.
 
-The goal of this project is get resources of facilities in the city of Karlsruhe and show them in a map. User will be able to select a point and check what facilities are closser to that point. The distance between the point and the facilities is given by the choosen mode of transport (by walk or bike) and the time that you want to spend (15,30 or 45 minutes).
+The goal of this project is get resources of facilities in the city of Karlsruhe and show them in a map. User will be able to select a point and check what facilities are closser to that point. The distance between the point and the facilities is given by the choosen mode of transport (by walk or bike) and the time that you want to spend (5, 10 or 15 minutes).
 
 The final data recollected is given visualized in the map and in a list. That data can be exported as json file.
 ## Authors
