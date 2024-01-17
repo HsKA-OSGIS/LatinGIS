@@ -12,7 +12,13 @@
     </ol-webgl-points-layer>
 
     <!--Point Marker on the map-->
-    <ol-context-menu-control @contextmenu="addMarker" />
+    <ol-context-menu-control @contextmenu="contextMenuItems" />
+    <ol-vector-layer>
+      <ol-source-vector ref="markers"> </ol-source-vector>
+      <ol-style>
+        <ol-style-icon :src="hereIcon" :scale="0.1"></ol-style-icon>
+      </ol-style>
+    </ol-vector-layer>
     <!--Layer switcher control-->
     <ol-layerswitcher-control />
 
@@ -60,6 +66,8 @@ const position = ref<number[]>([]);
 const layerList = ref([]);
 const osmLayer = ref(null);
 const markers = ref(null);
+const contextMenuItems = ref([]);
+
 
 const currentLocation = {
   "title": "My Location"
@@ -143,9 +151,7 @@ const layers = ref<Layer[]>([
     }
   }
 ]);
-onMounted(() => {
-  layerList.value.push(osmLayer.value.tileLayer)
-});
+
 
 const geoLocChange = (event: ObjectEvent) => {
   console.log("AAAAA", event);
@@ -153,12 +159,7 @@ const geoLocChange = (event: ObjectEvent) => {
   view.value?.setCenter(event.target?.getPosition());
 };
 
-const addMarker = (event) => {
-  const feature = new Feature({
-    geometry: new Point(event.coordinate),
-  });
-  markers.value.source.addFeature(feature);
-};
+
 
 
 </script>
