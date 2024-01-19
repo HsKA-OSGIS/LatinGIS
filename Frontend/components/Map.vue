@@ -7,7 +7,7 @@
 
       </ol-tile-layer>
       <!--Points layer from api geojson-->
-      <ol-webgl-points-layer v-for="(layer, index) in layers" :key="index" :styles="layer.styles" v-if="selected">
+      <ol-webgl-points-layer v-for="(layer, index) in layers" :key="index" :styles="layer.styles" v-if="selectedLayer1">
         <ol-source-webglpoints :format="geoJson" :url="layer.url" />
       </ol-webgl-points-layer>
 
@@ -66,19 +66,19 @@
         <div class="mb-4">
           <h3 class="text-lg font-semibold mb-2">Map Layers</h3>
           <label class="flex items-center space-x-1">
-            <input type="checkbox" class="form-checkbox text-indigo-500" v-model="selected">
+            <input type="checkbox" class="form-checkbox text-indigo-500"  v-model="selectedLayer1">
             <span>Layer 1</span>
           </label>
           <label class="flex items-center space-x-1">
-            <input type="checkbox" class="form-checkbox" v-model="selected">
+            <input type="checkbox" class="form-checkbox"  v-model="selectedLayer2">
             <span>Layer 2</span>
           </label>
           <label class="flex items-center space-x-1">
-            <input type="checkbox" class="form-checkbox" v-model="selected">
+            <input type="checkbox" class="form-checkbox"  v-model="selectedLayer3">
             <span>Layer 3</span>
           </label>
           <label class="flex items-center space-x-1">
-            <input type="checkbox" class="form-checkbox" v-model="checked">
+            <input type="checkbox" class="form-checkbox"  v-model="checked">
             <span>Location</span>
 
           </label>
@@ -156,7 +156,9 @@ const osmLayer = ref(null);
 const markers = ref(null);
 const contextMenuItems = ref([]);
 const checked = ref(false);
-const selected = ref(false);
+const selectedLayer1 = ref(false);
+const selectedLayer2 = ref(false);
+const selectedLayer3 = ref(false);
 
 const drawEnable = ref(false);
 const drawType = ref("Point");
