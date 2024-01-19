@@ -28,7 +28,7 @@ The final data recollected is given visualized in the map and in a list. That da
 
 ## Installation
 
-Basic guide for Installation. Form more info and detailed intallation, please read Readme from Backend, Frontend and libraries inside of them.
+Basic guide for Installation. For more info and detailed installation, please read Readme from Backend, Frontend and libraries inside of them.
 
 #### Frontend
 ```bash
