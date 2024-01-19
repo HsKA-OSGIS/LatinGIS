@@ -1,5 +1,5 @@
 
-# ![App Screenshot](https://lh3.googleusercontent.com/drive-viewer/AEYmBYRWd3wgwQx6aUH5rhu3h70CAQneGC_X9JVhcU9z2eIrAXTQizTrAzTpayw1jDifkA6OpSF7JZso1Gqs4dqBT1ATVk-XJg=w150-h320) LatinGIS
+# ![App Screenshot](https://lh3.googleusercontent.com/drive-viewer/AEYmBYSAC6Pz8NQpUg7-1ro83hoCihYHJ8BAfxwDh90ZoMwtnIjGuTf5-YnW1NU8Fihx3YFuLF6NsWDNREZnigLqg3xlTLrY=w1920-h991) LatinGIS
 
 LatinGIS is a group of three students of HKA University in Karlsruhe (Germany) that are creating a project of "15-Minute City" for the faculty of Geomatics in the subject Open Source GIS in Master of Geomatics.
 
