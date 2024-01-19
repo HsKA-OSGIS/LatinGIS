@@ -12,7 +12,7 @@ class Buffer(Process):
     def __init__(self):
         inputs = [ComplexInput('poly_in', 'Input vector file',
                   supported_formats=[Format('application/gml+xml')],
-                  mode=MODE.STRICT),
+                  mode=MODE.NONE),
                   LiteralInput('buffer', 'Buffer size', data_type='float',
                   allowed_values=(0, 1, 10, (10, 10, 100), (100, 100, 1000)))]
         outputs = [ComplexOutput('buff_out', 'Buffered file',
@@ -61,7 +61,7 @@ class Buffer(Process):
             inGeometry = inFeature.GetGeometryRef()
 
             # make the buffer
-            buff = inGeometry.Buffer(float(request.inputs['buffer'][0].data))
+            buff = inGeometry.Buffer(float(10))
 
             # create output feature to the file
             outFeature = ogr.Feature(feature_def=outLayer.GetLayerDefn())

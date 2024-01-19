@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Dec 13 13:00:42 2023
+Created on Wed Dec 1 13:00:42 2023
 
 @author: Iván Simarro Agramunt
-UPV, ETSIGCT
-1o MASTER
+UPV, ETSIGCT; HKA, Geomatics
+2o MASTER
 """
 # Libraries
 import requests
@@ -13,7 +13,7 @@ import json
 
 # Settings
 #Output
-path="LatinGIS/Backend/data/data.json"
+path="Backend/data/data.json"
 #Change Status Messages
 def Message(text:str):
     print(text)

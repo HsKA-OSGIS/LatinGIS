@@ -1,0 +1,273 @@
+{
+  "baustellen": {
+    "Baustellen (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Abaustellen&outputFormat=application%2Fjson"
+  },
+  "behindertenparkplaetze": {
+    "Behindertenparkpl\u00e4tze als GeoJSON": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Abehindertenparken&outputFormat=application%2Fjson"
+  },
+  "bewohnerparkzonen": {
+    "Bewohnerparkzonen (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_bewohnerparkzonen&outputFormat=application%2Fjson"
+  },
+  "blitzer-mobil": {
+    "Blitzer Mobil (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_mobile_blitzer&outputFormat=application%2Fjson"
+  },
+  "blitzer-stationaer": {
+    "Blitzer Station\u00e4r (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_blitzer_symbole&outputFormat=application%2Fjson"
+  },
+  "blitzer-strecken": {
+    "Blitzer Strecken (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_blitzer_strecken&outputFormat=application%2Fjson"
+  },
+  "busparkplaetze": {
+    "Busparkpl\u00e4tze (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_busparkplaetze&outputFormat=application%2Fjson"
+  },
+  "escooter-in-karlsruhe": {
+    "eScooter Karlsruhe (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_escooter&outputFormat=application%2Fjson"
+  },
+  "fahrrad-abstellanlagen": {
+    "Fahrrad Abstellanlagen (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_fahrradanlagen&outputFormat=application%2Fjson"
+  },
+  "fussgaengerzone-karlsruhe": {
+    "Fu\u00dfg\u00e4ngerzone Karlsruhe (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_fussgaengerzone&outputFormat=application%2Fjson"
+  },
+  "geschwindigkeiten": {
+    "Geschwindigkeiten (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_geschwindigkeiten&outputFormat=application%2Fjson"
+  },
+  "landtagswahl-2016": {
+    "Umrisse der Wahlbezirke": "https://transparenz.karlsruhe.de/dataset/c6576352-5ece-4380-a837-1e454606bacd/resource/a16d5625-4407-427b-9bc2-b5ce738d283c/download/wahlbezirke_original.geojson"
+  },
+  "motorradparkplaetze": {
+    "Motorradparkpl\u00e4tze (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_motorradparkplaetze&outputFormat=application%2Fjson"
+  },
+  "parkhaeuser": {
+    "Parkh\u00e4user (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_parkhaeuser&outputFormat=application%2Fjson"
+  },
+  "parkscheiben-parkplatze": {
+    "Parkscheiben Parkpl\u00e4tze (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aparkscheiben&outputFormat=application%2Fjson"
+  },
+  "parkscheinautomaten": {
+    "Parkscheinautomaten (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_parkscheinautomaten&outputFormat=application%2Fjson"
+  },
+  "parkscheinautomatenflachen": {
+    "Parkscheinautomatenfl\u00e4chen (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_parkscheinautomaten_flaechen&outputFormat=application%2Fjson"
+  },
+  "points-of-interest-baulandflachen1": {
+    "gemischte Baufl\u00e4chen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Baulandflaechen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27gemischte%20Baufl%C3%A4chen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "gewerbliche Baufl\u00e4chen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Baulandflaechen/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27gewerbliche Baufl\u00e4chen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Sonderbaufl\u00e4chen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Baulandflaechen/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Sonderbaufl\u00e4chen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Wohnbaufl\u00e4chen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Baulandflaechen/MapServer/6/query?where=GRUPPENNAME_DE+%3D+%27Wohnbaufl\u00e4chen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-behinderteneinrichtungen1": {
+    "Barrierefrei zug\u00e4ngliche Einrichtungen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behinderteneinrichtungen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Barrierefreie Einrichtungen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Barrierefrei zug\u00e4ngliche Parkh\u00e4user": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behinderteneinrichtungen/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27barrierefrei zug\u00e4ngliche Parkh\u00e4user%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Behindertengerechte Toiletten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behinderteneinrichtungen/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Behindertengerechte Toiletten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Behindertenparkpl\u00e4tze": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behinderteneinrichtungen/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Behindertenparkpl\u00e4tze%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Blindenampeln": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behinderteneinrichtungen/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Blindenampeln%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Haltestellen mit Angaben zur Barrierefreiheit": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behinderteneinrichtungen/MapServer/5/query?where=GRUPPENNAME_DE+%3D+%27Haltestellen (S-Bahn/Tram/Bus)%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "H\u00f6ranlagen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behinderteneinrichtungen/MapServer/6/query?where=GRUPPENNAME_DE+%3D+%27H\u00f6ranlagen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-behorden-und-offentliche-einrichtungen1": {
+    "Bundesbeh\u00f6rden": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behoerden_oeffentliche_Einrichtungen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Bundesbeh\u00f6rden%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Landesbeh\u00f6rden": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behoerden_oeffentliche_Einrichtungen/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Landesbeh\u00f6rden%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "St\u00e4dtische Beh\u00f6rden": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behoerden_oeffentliche_Einrichtungen/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27St\u00e4dtische Beh\u00f6rden%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Feuerwehr": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behoerden_oeffentliche_Einrichtungen/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Feuerwehr%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Gerichte": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behoerden_oeffentliche_Einrichtungen/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Gerichte%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Polizeireviere": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behoerden_oeffentliche_Einrichtungen/MapServer/5/query?where=GRUPPENNAME_DE+%3D+%27Polizei%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Tierheime": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behoerden_oeffentliche_Einrichtungen/MapServer/6/query?where=GRUPPENNAME_DE+%3D+%27Tierheime%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "\u00d6ffentliche Toiletten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Behoerden_oeffentliche_Einrichtungen/MapServer/7/query?where=GRUPPENNAME_DE+%3D+%27\u00d6ffentliche Toiletten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-bestattungen1": {
+    "Bestattungsinstitute": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Bestattungen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Bestattungsinstitute%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Friedh\u00f6fe": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Bestattungen/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Friedh\u00f6fe%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Friedhofsg\u00e4rtnereien": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Bestattungen/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Friedhofsg\u00e4rtnereien%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Steinmetze / Grabmale": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Bestattungen/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Steinmetze / Grabmale%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-burgerservice1": {
+    "Betriebe mit Hygienesiegel": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Buergerservice/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Betriebe mit Hygienesiegel%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "B\u00fcrgervereine": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Buergerservice/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27B\u00fcrgervereine%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Grundwasserpegel": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Buergerservice/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Grundwasserpegel%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "KA-WLAN-Zugangspunkte": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Buergerservice/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27KA-WLAN-Zugangspunkte%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Klimahaus-Atlas": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Buergerservice/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Klimahaus-Atlas%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-dienstleistungen1": {
+    "Banken / EC-Automaten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Dienstleistungen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Banken / EC-Automaten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Einkaufszentren / Kaufh\u00e4user": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Dienstleistungen/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Einkaufszentren / Kaufh\u00e4user%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Packstationen (DHL)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Dienstleistungen/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Packstationen (DHL)%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Postfilialen (gelbe Post)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Dienstleistungen/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Postfilialen (gelbe Post)%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Briefk\u00e4sten (gelbe Post)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Dienstleistungen/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Briefk\u00e4sten (gelbe Post)%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-entsorgungseinrichtungen1": {
+    "Altglascontainer": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Recyclinganlagen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Altglascontainer%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Altbatteriesammelbeh\u00e4lter": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Recyclinganlagen/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Altbatteriesammelbeh\u00e4lter%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Gr\u00fcnabfallcontainer": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Recyclinganlagen/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Gr\u00fcnabfallcontainer%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Kompostierungsanlagen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Recyclinganlagen/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Kompostierungsanlagen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Schadstoffannahmestellen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Recyclinganlagen/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Schadstoffannahmestellen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Alttextilcontainer": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Recyclinganlagen/MapServer/5/query?where=GRUPPENNAME_DE+%3D+%27Alttextilcontainer%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Wertstoffstationen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Recyclinganlagen/MapServer/6/query?where=GRUPPENNAME_DE+%3D+%27Wertstoffstationen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-freizeit-und-erholung1": {
+    "Grillpl\u00e4tze": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Freizeit_Erholung/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Grillpl\u00e4tze%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Kleingartenanlagen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Freizeit_Erholung/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Kleingartenanlagen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Minigolf- / Golfpl\u00e4tze": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Freizeit_Erholung/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Minigolf-/Golfpl\u00e4tze%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Parks / Pl\u00e4tze / Gr\u00fcnfl\u00e4chen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Freizeit_Erholung/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Parks, Pl\u00e4tze, Gr\u00fcnfl\u00e4chen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Schach- / Boule-Anlagen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Freizeit_Erholung/MapServer/5/query?where=GRUPPENNAME_DE+%3D+%27Freizeitanlagen (Schach/Boule)%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Tierparks": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Freizeit_Erholung/MapServer/6/query?where=GRUPPENNAME_DE+%3D+%27Tierpark%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Hundeauslauffl\u00e4chen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Freizeit_Erholung/MapServer/1/query?where=OBJEKTTYP+%3D+%27Hundeauslauf%27&outFields=TITEL&returnGeometry=true&f=geojson",
+    "Urban Gardening Standorte": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Freizeit_Erholung/MapServer/7/query?where=GRUPPENNAME_DE+%3D+%27Urban Gardening Standorte%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-gesundheit-und-beratungsstellen1": {
+    "Apotheken": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Gesundheit_Beratungsstellen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Apotheken%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Kliniken": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Gesundheit_Beratungsstellen/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Kliniken%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Beratungsstellen f\u00fcr Arbeit und Leben": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Gesundheit_Beratungsstellen/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Beratungsstellen Arbeit und Leben%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Beratungsstellen f\u00fcr Ausl\u00e4nder / Migranten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Gesundheit_Beratungsstellen/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Beratungsstellen Ausl\u00e4nder/Migranten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Beratungsstellen f\u00fcr bestimmte Personengruppen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Gesundheit_Beratungsstellen/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Beratungsstellen bestimmte Personengruppen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Beratungsstellen f\u00fcr Gesundheit": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Gesundheit_Beratungsstellen/MapServer/5/query?where=GRUPPENNAME_DE+%3D+%27Beratungsstellen Gesundheit%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Beratungsstellen f\u00fcr Sucht / psychische Probleme": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Gesundheit_Beratungsstellen/MapServer/6/query?where=GRUPPENNAME_DE+%3D+%27Beratungsstellen Sucht/psychische Probleme%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Sonstige Beratungsstellen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Gesundheit_Beratungsstellen/MapServer/7/query?where=GRUPPENNAME_DE+%3D+%27Sonstige Beratungsstellen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-hochschulen-und-forschung1": {
+    "Hochschulen / Universit\u00e4ten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Hochschulen_Forschung/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Hochschulen / Universit\u00e4ten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Einrichtungen f\u00fcr Studenten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Hochschulen_Forschung/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Studentenwohnheime%27%20OR%20GRUPPENNAME_DE+%3D+%27Einrichtungen%20des%20Studierendenwerks%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Forschungseinrichtungen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Hochschulen_Forschung/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Forschungseinrichtungen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-kinder-und-jugendliche1": {
+    "Hilfeeinrichtungen f\u00fcr Kinder und Jugendliche": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kinder_Jugendliche/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Sorgen, Kummer, Hilfe%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Jugendeinrichtungen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kinder_Jugendliche/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Jugendeinrichtungen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Kinderg\u00e4rten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kinder_Jugendliche/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Kinderg\u00e4rten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Kindertagesst\u00e4tten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kinder_Jugendliche/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Kindertagesst\u00e4tten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Kulturelle Einrichtungen f\u00fcr Kinder und Jugendliche": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kinder_Jugendliche/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Kinder- und Jugendkultur%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Sch\u00fclerhorte": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kinder_Jugendliche/MapServer/5/query?where=GRUPPENNAME_DE+%3D+%27Sch\u00fclerhorte%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Spielpl\u00e4tze": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kinder_Jugendliche/MapServer/6/query?where=GRUPPENNAME_DE+%3D+%27Spielpl\u00e4tze%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Spielpl\u00e4tze (mit rollstuhlgerechtem Zugang)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kinder_Jugendliche/MapServer/7/query?where=GRUPPENNAME_DE+%3D+%27Spielpl\u00e4tze geeignet auch f\u00fcr Behinderte%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-kultur1": {
+    "Bibliotheken / Archive": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kultur/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Bibliotheken, Archive%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Clubs / Locations": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kultur/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Clubs, Locations%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Gastronomie": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kultur/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Gastronomie%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Kinos": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kultur/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Kinos%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Kirchen / Glaubensgemeinschaften": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kultur/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Kirchen %26 Glaubensgemeinschaften%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Kulturzentren": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kultur/MapServer/5/query?where=GRUPPENNAME_DE+%3D+%27Kulturzentren%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Museen / Ausstellungen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kultur/MapServer/6/query?where=GRUPPENNAME_DE+%3D+%27Museen, Ausstellungen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Stolpersteine": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kultur/MapServer/7/query?where=GRUPPENNAME_DE+%3D+%27Stolpersteine%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Theater": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kultur/MapServer/8/query?where=GRUPPENNAME_DE+%3D+%27Theater%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Veranstaltungsorte und M\u00e4rkte": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kultur/MapServer/9/query?where=GRUPPENNAME_DE+%3D+%27Veranstaltungsorte%27%20OR%20GRUPPENNAME_DE+%3D+%27Sonstige%20M%C3%A4rkte%27%20OR%20GRUPPENNAME_DE+%3D+%27Wochenm%C3%A4rkte%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "W\u00e4nde des Projekts \"Free Walls\"": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Kultur/MapServer/10/query?where=GRUPPENNAME_DE+%3D+%27Free Walls%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Kulturdenkmale": "https://web1.karlsruhe.de/db/kulturdenkmale/kulturdenkmale.json"
+  },
+  "points-of-interest-offentlicher-nahverkehr-opnv1": {
+    "Bahnh\u00f6fe": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Bahnh\u00f6fe%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Haltestellen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Haltestellen (S-Bahn/Tram/Bus)%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Linie 1 (Tram)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/4/query?where=NAME+%3D+%27Linie 1%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie 2 (Tram)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/5/query?where=NAME+%3D+%27Linie 2%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie 3 (Tram)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/6/query?where=NAME+%3D+%27Linie 3%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie 4 (Tram)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/7/query?where=NAME+%3D+%27Linie 4%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie 5 (Tram)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/8/query?where=NAME+%3D+%27Linie 5%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie 6 (Tram)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/9/query?where=NAME+%3D+%27Linie 6%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie 8 (Tram)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/10/query?where=NAME+%3D+%27Linie 8%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie 10 (Schienersatzverkehr)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/11/query?where=NAME+%3D+%27Linie 10 (SEV)%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S1/S11 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/12/query?where=NAME+%3D+%27Linie S1%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S2 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/13/query?where=NAME+%3D+%27Linie S2%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S3 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/14/query?where=NAME+%3D+%27Linie S3%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S4 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/16/query?where=NAME+%3D+%27Linie S4%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S5 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/17/query?where=NAME+%3D+%27Linie S5%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S51 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/18/query?where=NAME+%3D+%27Linie S51%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S52 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/19/query?where=NAME+%3D+%27Linie S52%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S7 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/20/query?where=NAME+%3D+%27Linie S7%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S71 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/21/query?where=NAME+%3D+%27Linie S71%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S8 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/22/query?where=NAME+%3D+%27Linie S8%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S81 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/23/query?where=NAME+%3D+%27Linie S81%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Stra\u00dfenbahn-/Busliniennnetz": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/2/query?where=NAME+%3D+%27Alle Linien%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S31 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/15/query?where=NAME+%3D+%27Linie S31%27&outFields=NAME&returnGeometry=true&f=geojson",
+    "Linie S32 (S-Bahn)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_OEPNV/MapServer/25/query?where=NAME+%3D+%27Linie S32%27&outFields=NAME&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-parken-und-autoservices1": {
+    "Barrierefrei zug\u00e4ngliche Parkh\u00e4user": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27barrierefrei zug\u00e4ngliche Parkh\u00e4user%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Behindertenparkpl\u00e4tze": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Behindertenparkpl\u00e4tze%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Park&Ride": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Park%2BRide%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Parkh\u00e4user / Tiefgaragen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Parkh\u00e4user/Tiefgaragen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Abschleppdienste": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Abschleppdienste%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Autoclubs": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/5/query?where=GRUPPENNAME_DE+%3D+%27Autoclubs%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Autopr\u00fcfstellen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/6/query?where=GRUPPENNAME_DE+%3D+%27Autopr\u00fcfstellen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Autovermietungen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/7/query?where=GRUPPENNAME_DE+%3D+%27Autovermietungen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Autoverwertungen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/8/query?where=GRUPPENNAME_DE+%3D+%27Autoverwertungen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Autowaschstationen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/9/query?where=GRUPPENNAME_DE+%3D+%27Autowaschstationen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Autowerkst\u00e4tten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/10/query?where=GRUPPENNAME_DE+%3D+%27Autowerkst\u00e4tten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Stadtmobil (Carsharing)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/11/query?where=GRUPPENNAME_DE+%3D+%27Stadtmobil carsharing%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Tankstellen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/12/query?where=GRUPPENNAME_DE+%3D+%27Tankstellen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Taxi": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/13/query?where=GRUPPENNAME_DE+%3D+%27Taxi%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Verkehrs\u00fcbungspl\u00e4tze": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Parken_Autoservices/MapServer/14/query?where=GRUPPENNAME_DE+%3D+%27Verkehrs\u00fcbungspl\u00e4tze%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-radverkehr1": {
+    "Fahrradclubs": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Radverkehr/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Fahrradclubs%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Radverkauf / Radreparatur": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Radverkehr/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Radverkauf%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Radverleih / F\u00e4cherrad": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Radverkehr/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Radverleih%27%20OR%20GRUPPENNAME_DE+%3D+%27Radstationen%2FF%C3%A4cherrad%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Fahrradabstellpl\u00e4tze": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Radverkehr/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Fahrradabstellpl\u00e4tze%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-schulen1": {
+    "Allgemeinbildende Gymnasien": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Schulen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Allgemeinbildende Gymnasien%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Berufliche Gymnasien": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Schulen/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Berufliche Gymnasien%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Berufliche Schulen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Schulen/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Berufliche Schulen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Europ\u00e4ische Schule": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Schulen/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Europ\u00e4ische Schule%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Ganztagsgrundschulen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Schulen/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Ganztagsgrundschulen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Gemeinschaftsschulen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Schulen/MapServer/5/query?where=GRUPPENNAME_DE+%3D+%27Gemeinschaftsschulen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Grundschulen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Schulen/MapServer/6/query?where=GRUPPENNAME_DE+%3D+%27Grundschulen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Realschulen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Schulen/MapServer/7/query?where=GRUPPENNAME_DE+%3D+%27Realschulen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Schulkinderg\u00e4rten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Schulen/MapServer/8/query?where=GRUPPENNAME_DE+%3D+%27Schulkinderg\u00e4rten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Sonderp\u00e4dagogische Bildungs- und Beratungszentren (SBBZ)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Schulen/MapServer/9/query?where=GRUPPENNAME_DE+%3D+%27Sonderp\u00e4dagogische Bildungs- und Beratungszentren (SBBZ)%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Werkrealschulen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Schulen/MapServer/10/query?where=GRUPPENNAME_DE+%3D+%27Werkrealschulen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-senioren1": {
+    "Begegnungsst\u00e4tten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Senioren/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Begegnungsst\u00e4tten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Betreutes Wohnen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Senioren/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Betreutes Wohnen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Pflegeheime": "https://web1.karlsruhe.de/db/pflegeheime/pflegeheime.json",
+    "Tagespflege": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Senioren/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Tagespflege%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-sonstige-bildungseinrichtungen1": {
+    "Einrichtungen f\u00fcr kulturelle Bildung": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sonstige_Bildungseinrichtungen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Kulturelle Bildung%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Einrichtungen f\u00fcr Umweltbildung": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sonstige_Bildungseinrichtungen/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Umweltbildung%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Fachschulen / Akademien / Institute": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sonstige_Bildungseinrichtungen/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Sonstige Bildungseinrichtungen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-sportanlagen1": {
+    "B\u00e4der": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27B\u00e4der%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Basketballpl\u00e4tze": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Basketballpl\u00e4tze%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Bolzpl\u00e4tze / Ballspielfl\u00e4chen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Bolzpl\u00e4tze/Ballspielfl\u00e4chen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Skate- / BMX-Pl\u00e4tze": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Skate-/BMX-Pl\u00e4tze%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Sporthallen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Sporthallen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Sportvereine": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/6/query?where=GRUPPENNAME_DE+%3D+%27Sportvereine%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Tischtennisplatten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/7/query?where=GRUPPENNAME_DE+%3D+%27Tischtennisplatten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Volleyballfelder": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/8/query?where=GRUPPENNAME_DE+%3D+%27Volleyballfelder%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Fitnessangebote": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Sportanlagen/MapServer/9/query?where=GRUPPENNAME_DE+%3D+%27Waldsportpfade/Fitnessangebote%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-tourismus1": {
+    "Camping": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Tourismus/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Camping%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Hotels / Unterk\u00fcnfte": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Tourismus/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Hotels/Unterk\u00fcnfte%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Schifffahrt": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Tourismus/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Schifffahrt%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Sehensw\u00fcrdigkeiten": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Tourismus/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Sehensw\u00fcrdigkeiten%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Tourismusb\u00fcros": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Tourismus/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Tourismusb\u00fcros%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-versorgung1": {
+    "Baustellen (Stadtwerke)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Versorgung/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Baustellen (Stadtwerke)%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Brunnen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Versorgung/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Brunnen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Historische Versorgungsanlagen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Versorgung/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Historische Versorgungsanlagen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Kundenberatung (Stadtwerke)": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Versorgung/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Kundenberatung (Stadtwerke)%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Wasserwerke": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Versorgung/MapServer/4/query?where=GRUPPENNAME_DE+%3D+%27Wasserwerke%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Trinkwasserbrunnen": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Versorgung/MapServer/5/query?where=GRUPPENNAME_DE+%3D+%27Trinkwasserbrunnen%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "points-of-interest-wirtschaft1": {
+    "Messe / Kongresse": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Wirtschaft/MapServer/0/query?where=GRUPPENNAME_DE+%3D+%27Messe und Kongresse%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Baugenossenschaften": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Wirtschaft/MapServer/1/query?where=GRUPPENNAME_DE+%3D+%27Baugenossenschaften%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Gr\u00fcnderzentren": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Wirtschaft/MapServer/2/query?where=GRUPPENNAME_DE+%3D+%27Gr\u00fcnderzentren%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson",
+    "Wirtschafts- und Berufsverb\u00e4nde": "https://geoportal.karlsruhe.de/server/rest/services/Stadtplan/Stadtplan_POIs_Wirtschaft/MapServer/3/query?where=GRUPPENNAME_DE+%3D+%27Wirtschafts- und Berufsverb\u00e4nde%27&outFields=NAME%2CGRUPPENNAME_DE%2CUPDATED&returnGeometry=true&f=geojson"
+  },
+  "tempo-20-zonen-karlsruhe": {
+    "Tempo 20 Zonen Karlsruhe (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Aka_tempo20zonen&outputFormat=application%2Fjson"
+  },
+  "tempo-30-zonen-karlsruhe": {
+    "Tempo 30 Zonen Karlsruhe (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Atempo30zonen&outputFormat=application%2Fjson"
+  },
+  "verkehrsberuhigte-bereiche": {
+    "Verkehrsberuhigte Bereiche (GeoJSON)": "https://mobil.trk.de:8443/geoserver/TBA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TBA%3Averkehrsberuhigtebereiche&outputFormat=application%2Fjson"
+  },
+  "wochenmaerkte": {
+    "Daten": "https://raw.githubusercontent.com/wo-ist-markt/wo-ist-markt.github.io/master/cities/karlsruhe.json"
+  }
+}

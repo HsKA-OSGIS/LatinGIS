@@ -370,3 +370,429 @@ NoneType: None
 2023-12-13 18:16:10,894] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
 2023-12-13 18:16:12,340] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
 2023-12-13 18:16:29,445] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: getcapabilities
+2023-12-15 10:17:56,909] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-15 10:18:00,609] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps/pywps-flask/workdir/pywps_process_a1pyfx1p
+2023-12-15 10:19:18,783] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-15 10:19:18,890] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps/pywps-flask/workdir/pywps_process_lv89dy7o
+2023-12-15 10:19:27,385] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-15 10:19:27,538] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps/pywps-flask/workdir/pywps_process_r9r145kc
+2023-12-15 10:19:47,491] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-15 10:19:48,008] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps/pywps-flask/workdir/pywps_process_jck3co8j
+2023-12-15 10:48:56,863] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-15 12:31:05,610] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2023-12-15 12:32:07,736] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2023-12-15 12:32:07,838] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Process.py line=326 module=Process function=clean Removing temporary working directory: /home/user/OpenSource/LatinGIS/Backend/pywps/pywps-flask/workdir/pywps_process_6gas5vnw
+2024-01-18 19:28:46,692] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: getcapabilities
+2024-01-18 19:29:48,453] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Missing version, locator: version
+NoneType: None
+2024-01-18 19:30:11,226] [WARNING] file=/usr/lib/python3/dist-packages/pywps/app/WPSRequest.py line=530 module=WPSRequest function=get_data_from_kvp not enough values to unpack (expected 2, got 1)
+2024-01-18 19:30:11,226] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 19:30:11,233] [ERROR] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=136 module=Service function=_parse_and_execute Missing parameter value: poly_in
+2024-01-18 19:30:11,234] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: poly_in, locator: poly_in
+NoneType: None
+2024-01-18 19:31:07,521] [WARNING] file=/usr/lib/python3/dist-packages/pywps/app/WPSRequest.py line=530 module=WPSRequest function=get_data_from_kvp too many values to unpack (expected 2)
+2024-01-18 19:31:07,522] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 19:31:07,627] [ERROR] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=136 module=Service function=_parse_and_execute Missing parameter value: poly_in
+2024-01-18 19:31:07,627] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: poly_in, locator: poly_in
+NoneType: None
+2024-01-18 19:32:02,142] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 19:32:02,151] [ERROR] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=136 module=Service function=_parse_and_execute Missing parameter value: poly_in
+2024-01-18 19:32:02,151] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: poly_in, locator: poly_in
+NoneType: None
+2024-01-18 19:53:42,576] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2024-01-18 20:02:57,978] [WARNING] file=/usr/lib/python3/dist-packages/pywps/app/WPSRequest.py line=530 module=WPSRequest function=get_data_from_kvp too many values to unpack (expected 2)
+2024-01-18 20:02:57,979] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 20:02:58,018] [ERROR] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=136 module=Service function=_parse_and_execute Missing parameter value: poly_in
+2024-01-18 20:02:58,019] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: poly_in, locator: poly_in
+NoneType: None
+2024-01-18 20:03:13,122] [WARNING] file=/usr/lib/python3/dist-packages/pywps/app/WPSRequest.py line=530 module=WPSRequest function=get_data_from_kvp not enough values to unpack (expected 2, got 1)
+2024-01-18 20:03:13,122] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 20:03:13,137] [ERROR] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=136 module=Service function=_parse_and_execute Missing parameter value: poly_in
+2024-01-18 20:03:13,137] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: poly_in, locator: poly_in
+NoneType: None
+2024-01-18 20:03:16,024] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 20:03:16,042] [ERROR] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=136 module=Service function=_parse_and_execute Missing parameter value: poly_in
+2024-01-18 20:03:16,042] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: poly_in, locator: poly_in
+NoneType: None
+2024-01-18 20:03:19,518] [WARNING] file=/usr/lib/python3/dist-packages/pywps/app/WPSRequest.py line=530 module=WPSRequest function=get_data_from_kvp not enough values to unpack (expected 2, got 1)
+2024-01-18 20:03:19,518] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 20:03:19,528] [ERROR] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=136 module=Service function=_parse_and_execute Missing parameter value: poly_in
+2024-01-18 20:03:19,528] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: poly_in, locator: poly_in
+NoneType: None
+2024-01-18 20:03:34,038] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2024-01-18 20:04:06,117] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2024-01-18 20:07:25,011] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 20:07:25,048] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 20:07:25,600] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 20:11:34,982] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 20:11:34,997] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 20:11:34,998] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 20:11:51,231] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 20:11:51,245] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 20:11:51,246] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 22:11:42,397] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:11:42,649] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 22:11:42,649] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 22:11:49,603] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:11:49,613] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 22:11:49,614] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 22:11:57,035] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:11:57,042] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 22:11:57,225] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 22:13:13,649] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:13:13,666] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 22:13:13,666] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 22:17:20,423] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:17:20,431] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 22:17:20,432] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 22:18:07,888] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:18:07,896] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 22:18:07,896] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 22:33:55,823] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:33:55,838] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 22:33:55,838] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 22:34:05,116] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:34:05,125] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 22:34:05,126] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 22:34:12,298] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:34:12,305] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 22:34:12,307] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 22:34:31,039] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:34:31,048] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 22:34:31,048] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 22:35:03,599] [WARNING] file=/usr/lib/python3/dist-packages/pywps/app/WPSRequest.py line=530 module=WPSRequest function=get_data_from_kvp too many values to unpack (expected 2)
+2024-01-18 22:35:03,599] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:35:03,607] [ERROR] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=136 module=Service function=_parse_and_execute Missing parameter value: poly_in
+2024-01-18 22:35:03,607] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: poly_in, locator: poly_in
+NoneType: None
+2024-01-18 22:35:14,554] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 22:35:14,562] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 22:35:14,562] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 23:09:01,819] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:09:02,348] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 23:09:02,363] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 23:12:58,628] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:12:58,637] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 23:12:58,638] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 23:17:45,354] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:17:45,463] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10.0]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10.0]'
+2024-01-18 23:17:55,124] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:17:55,132] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value ''10.0']' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: "'10.0']"
+2024-01-18 23:18:05,021] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:18:05,029] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '"10.0"]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '"10.0"]'
+2024-01-18 23:18:21,505] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:18:21,512] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10.0.]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10.0.]'
+2024-01-18 23:18:26,106] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:18:26,169] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10.0]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10.0]'
+2024-01-18 23:19:18,507] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:19:18,515] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 23:19:18,516] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 23:19:25,807] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:19:25,819] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10.0]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10.0]'
+2024-01-18 23:19:39,671] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:19:39,805] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10.0]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10.0]'
+2024-01-18 23:19:45,619] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:19:45,629] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10.0      ]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10.0      ]'
+2024-01-18 23:20:51,908] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:20:51,943] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10.0
+]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10.0\n]'
+2024-01-18 23:21:04,201] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:21:04,243] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10.0]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10.0]'
+2024-01-18 23:21:23,990] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:21:23,999] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10]'
+2024-01-18 23:22:23,308] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:22:23,315] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10]'
+2024-01-18 23:23:33,429] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: describeprocess
+2024-01-18 23:26:08,542] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:26:08,550] [INFO] file=/usr/lib/python3/dist-packages/pywps/validator/complexvalidator.py line=46 module=complexvalidator function=validategml validating GML; Mode: 2
+2024-01-18 23:26:08,551] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Input data not valid using mode 2, locator: 
+NoneType: None
+2024-01-18 23:28:16,249] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:28:16,257] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10]'
+2024-01-18 23:31:27,139] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:31:27,148] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10    ]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10    ]'
+2024-01-18 23:31:36,444] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:31:36,453] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10]'
+2024-01-18 23:33:33,815] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:33:33,823] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10"]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10"]'
+2024-01-18 23:36:15,602] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:36:15,610] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10]'
+2024-01-18 23:36:40,631] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:36:40,721] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10]'
+2024-01-18 23:38:05,541] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:38:05,551] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '10]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '10]'
+2024-01-18 23:38:24,565] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:38:24,651] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 500, description: No applicable error code, please check error log., locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 336, in call
+    raise e
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 326, in call
+    response = self.execute(
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 81, in execute
+    return self._parse_and_execute(process, wps_request, uuid)
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 126, in _parse_and_execute
+    data_inputs[inpt.identifier] = self.create_literal_inputs(
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 227, in create_literal_inputs
+    newinpt.data = inpt.get('data')
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 541, in data
+    DataHandler.data.fset(self, value)
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 375, in data
+    self._check_valid()
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 167, in _check_valid
+    _valid = validate(self, self.valid_mode)
+  File "/usr/lib/python3/dist-packages/pywps/validator/literalvalidator.py", line 82, in validate_allowed_values
+    passed = _validate_range(value, data)
+  File "/usr/lib/python3/dist-packages/pywps/validator/literalvalidator.py", line 112, in _validate_range
+    if interval.minval <= data <= interval.maxval:
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2024-01-18 23:41:33,499] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:41:33,591] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 500, description: No applicable error code, please check error log., locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 336, in call
+    raise e
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 326, in call
+    response = self.execute(
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 81, in execute
+    return self._parse_and_execute(process, wps_request, uuid)
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 126, in _parse_and_execute
+    data_inputs[inpt.identifier] = self.create_literal_inputs(
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 227, in create_literal_inputs
+    newinpt.data = inpt.get('data')
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 541, in data
+    DataHandler.data.fset(self, value)
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 375, in data
+    self._check_valid()
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 167, in _check_valid
+    _valid = validate(self, self.valid_mode)
+  File "/usr/lib/python3/dist-packages/pywps/validator/literalvalidator.py", line 82, in validate_allowed_values
+    passed = _validate_range(value, data)
+  File "/usr/lib/python3/dist-packages/pywps/validator/literalvalidator.py", line 112, in _validate_range
+    if interval.minval <= data <= interval.maxval:
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2024-01-18 23:41:59,687] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:41:59,809] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 500, description: No applicable error code, please check error log., locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 336, in call
+    raise e
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 326, in call
+    response = self.execute(
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 81, in execute
+    return self._parse_and_execute(process, wps_request, uuid)
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 126, in _parse_and_execute
+    data_inputs[inpt.identifier] = self.create_literal_inputs(
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 227, in create_literal_inputs
+    newinpt.data = inpt.get('data')
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 541, in data
+    DataHandler.data.fset(self, value)
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 375, in data
+    self._check_valid()
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 167, in _check_valid
+    _valid = validate(self, self.valid_mode)
+  File "/usr/lib/python3/dist-packages/pywps/validator/literalvalidator.py", line 82, in validate_allowed_values
+    passed = _validate_range(value, data)
+  File "/usr/lib/python3/dist-packages/pywps/validator/literalvalidator.py", line 112, in _validate_range
+    if interval.minval <= data <= interval.maxval:
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2024-01-18 23:43:52,925] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:43:53,012] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '1]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '1]'
+2024-01-18 23:44:47,894] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:44:47,974] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 500, description: No applicable error code, please check error log., locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 336, in call
+    raise e
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 326, in call
+    response = self.execute(
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 81, in execute
+    return self._parse_and_execute(process, wps_request, uuid)
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 126, in _parse_and_execute
+    data_inputs[inpt.identifier] = self.create_literal_inputs(
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 227, in create_literal_inputs
+    newinpt.data = inpt.get('data')
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 541, in data
+    DataHandler.data.fset(self, value)
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 375, in data
+    self._check_valid()
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 167, in _check_valid
+    _valid = validate(self, self.valid_mode)
+  File "/usr/lib/python3/dist-packages/pywps/validator/literalvalidator.py", line 82, in validate_allowed_values
+    passed = _validate_range(value, data)
+  File "/usr/lib/python3/dist-packages/pywps/validator/literalvalidator.py", line 112, in _validate_range
+    if interval.minval <= data <= interval.maxval:
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2024-01-18 23:45:49,168] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:45:49,247] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 500, description: No applicable error code, please check error log., locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 336, in call
+    raise e
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 326, in call
+    response = self.execute(
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 81, in execute
+    return self._parse_and_execute(process, wps_request, uuid)
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 126, in _parse_and_execute
+    data_inputs[inpt.identifier] = self.create_literal_inputs(
+  File "/usr/lib/python3/dist-packages/pywps/app/Service.py", line 227, in create_literal_inputs
+    newinpt.data = inpt.get('data')
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 541, in data
+    DataHandler.data.fset(self, value)
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 375, in data
+    self._check_valid()
+  File "/usr/lib/python3/dist-packages/pywps/inout/basic.py", line 167, in _check_valid
+    _valid = validate(self, self.valid_mode)
+  File "/usr/lib/python3/dist-packages/pywps/validator/literalvalidator.py", line 82, in validate_allowed_values
+    passed = _validate_range(value, data)
+  File "/usr/lib/python3/dist-packages/pywps/validator/literalvalidator.py", line 112, in _validate_range
+    if interval.minval <= data <= interval.maxval:
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2024-01-18 23:49:57,038] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-18 23:49:57,104] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '1]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '1]'
+2024-01-19 10:22:38,947] [INFO] file=/usr/lib/python3/dist-packages/pywps/app/Service.py line=310 module=Service function=call Request: execute
+2024-01-19 10:22:39,229] [ERROR] file=/usr/lib/python3/dist-packages/pywps/exceptions.py line=45 module=exceptions function=__init__ Exception: code: 400, description: Could not convert value '1]' to format 'float', locator: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 211, in decorator_selector
+    return convert(data)
+  File "/usr/lib/python3/dist-packages/pywps/inout/literaltypes.py", line 265, in convert_float
+    return float(inpt)
+ValueError: could not convert string to float: '1]'
